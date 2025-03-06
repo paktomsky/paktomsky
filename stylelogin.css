@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1877f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login-container {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1877f2;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #125dbb;
+}
+
+.error {
+    color: red;
+}
+
+header {
+    background: #1877f2;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-left: 15px;
+}
+
+header .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.status-box {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 90%;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 90%;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.post-content {
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #1877f2;
+    color: white;
+}
